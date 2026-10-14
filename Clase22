@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+     <head>
+	        <title>Apuntes de HTML</title>
+			<meta charset="utf-8">
+	 </head>
+		<body>
+		    <font color="#F54927">
+		    <h1>Etiquetas relacionadas con texto</h1>
+			</font>
+			
+			<p><h3> En este segundo tema hemos aprendido a poner encabezados, alineaciones y ademas hemos dado varias etiquetas nuevas: </h3></p>
+			
+			<font color="#000080">
+			<h2>Encabezados</h2>
+			</font>
+			
+			<h3>Existen varios tipos de encabezados:</h3>
+			<ul>
+			   <li><h1>Encabezado de nivel 1</h1></li>
+			   <li><h2>Encabezado de nivel 2</h2></li>
+			   <li><h3>Encabezado de nivel 3</h3></li>
+			   <li><h4>Encabezado de nivel 4</h4></li>
+			   <li><h5>Encabezado de nivel 5</h5></li>
+			</ul> 
+		     
+			<font color="#000080">
+			<h2>Etiquetas de formato</h2>
+			</font>
+			
+		    <h3>Existen tambien varios tipos de etiquetas de formato:</h3>
+			<ul>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/b"> <b>Negrita</b> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/i"> <i>Cursiva</i> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/del"> <del>Tachado</del> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/mark"> <mark>Subrayado</mark> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/time"> <time>10:37</time> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/em"> <em>Énfasis</em> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/cite"> <cite>Referencia bibliográfica</cite> </a> </li>
+			   <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/address"> <address>Calle Julio Cien Fuegos Linares</address> </a> </li>
+			</ul>
+			
+			<font color="#000080">
+			<h2>Alineaciones</h2>
+			</font>  
+			
+			<h3>Nos encontramos con tres tipos de alineaciones:</h3>
+			<ol type="1">
+			<li><p align="center">Alineación centrada</p></li>
+			<li><p align="left">Alineación a la izquierda</p></li>
+			<li><p align="right">Alineación a la derecha</p></li>
+			</ol>
+			
+		    <font color="#F54927">
+		    <h1>Imagenes y enlaces</h1>
+			</font>	
+
+            <p><h3>En el tercer tema hemos aprendido a introducir imágenes, enlaces	y figuras.</h3></p>
+            
+            <font color="#000080">
+			<h2>Imágenes</h2>
+			</font>	
+			
+            <h3>Descargando la imagen en formato png y copiandola como ruta de acceso conseguimos introducir las imagnes.</h3>
+			<h3>Para ello ademas tenriamos que añadir la etiqueta img.</h3>	
+            <p><h3>Algunos ejemplos:</h3><p>	
+			<img src="\\srv-docedu\1daw\1daw00\Mis documentos\My Pictures\EjemploApuntes1.html" alt="Imagen HTML" width="200" height="200" />
+			<img src="\\srv-docedu\1daw\1daw00\Mis documentos\My Pictures\EjemploApuntes2.html"" alt="Imagen HTML" width="200" height="200" />
+			
+			<font color="#000080">
+			<h2>Imágenes</h2>
+			</font>	
+			
+			<h3>Introduciendo la etiqueta < a /> y copiando el url de la web podemos acceder a un página web.</h3>
+			<p><h3>Ejemplo:</h3><p>
+			<a href="https://fundacionloyola.com/vguadalupe/">Página web del Instituto Virgen del Guadalupe</a>
+			
+			<font color="#000080">
+			<h2>Figuras</h2>
+			</font>
+			
+			<h3>Añadiendo las etiquetas figure y figcaption podemos introducir figuras en nuestra web.
+			<p><h3>Ejemplo:</h3><p>
+			 <figure>
+		         <img alt"Clara Campo Amor" src="\\srv-docedu\1daw\1daw00\Mis documentos\My Pictures\ClaraCampoAmor.png" alt="Imagen HTML" width="500" height="300">
+                 <figcaption><font color="#FFFFFF">Clara Campo Amor</font></figcaption>
+         </figure>
+		</body>
+</html>
